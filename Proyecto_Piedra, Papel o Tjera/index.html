@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIEDRA, PAPEL O TIJERA</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="header">
+        <h1>PIEDRA, PAPEL O TIJERA</h1>
+    </div>
+
+    <!-- menu -->
+
+    <div class="menu">
+
+        <div class="izquierda">
+            <div class="puntosLimite">
+                <h4>Puntos limite: <span id="puntos"></span></h4>
+            </div>
+            
+            <div class="marcador">
+                
+                <div class="usuario">
+                    <h4>Usuario</h4>
+                    <span id="puntos-usuario">0</span>
+                </div>
+                <div class="pc">
+                    <h4>PC</h4>
+                    <span id="puntos-pc">0</span>
+                </div>
+                
+            </div>
+    
+        </div>
+            
+        <div class="derecha">
+            <div class="resultado">
+                <p>A jugar !!</p>
+            </div>
+        
+            <div class="opciones">
+        
+                <div class="eleccion" id="piedra">
+                    <img src="imagenes/piedra.png" alt="piedra">
+                </div>
+                
+                <div class="eleccion" id="papel">
+                    <img src="imagenes/papel.png" alt="papel">
+                </div>
+                
+                <div class="eleccion" id="tijera">
+                    <img src="imagenes/tijera.png" alt="tijera">
+                </div>
+                
+            </div>
+        
+        </div>
+
+    </div>
+
+    <!-- Modal Inicio -->
+
+    <div class="modal">
+
+        <div class="modalContenido">
+
+            <h2 class="h2Modal">
+                BIENVENIDO A PIEDRA PAPEL O TIJERA
+            </h2>
+            <P class="parrafoModal">
+                Selecciona la opcion a jugar
+            </P>
+
+            <a class="cerrarModal" id="puntos5" href="">3 puntos</a>
+            <a class="cerrarModal" id="puntos10" href="">5 puntos</a>
+            <a class="cerrarModal" id="puntos15" href="">10 puntos</a>
+
+        </div>
+
+    </div>
+
+    <!-- Modal Volver a jugar -->
+
+    <div class="modalReiniciar">
+
+        <div class="modalContenidoReiniciar">
+
+            <h2 class="resultadoPartida">
+                Felicitaciones !! Sos el GANADOR
+            </h2>
+            <P class="parrafoModalReiniciar">
+                ¿ Sale otra partida ?
+            </P>
+
+            <button id="reiniciar">Volver a jugar</button>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="redes">
+            <a href="https://github.com/Rogger-Vera" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/rogger-vera/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <p class="copy">
+            Copyright © Rogger Vera
+        </p>
+    </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/ba0ece2d64.js"></script>
+    <script src="index.js"></script>
+
+    
+</body>
+</html>
